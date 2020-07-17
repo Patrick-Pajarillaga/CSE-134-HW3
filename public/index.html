@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Patrick Pajarillaga's Website</title>
+
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to Patrick's Site!</h1>
+
+      <nav id="main-nav"> 
+        <ul>
+          <li><strong>Home</strong></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="sat.html">Skills and Technologies</a></li>
+          <li><a href="exp.html">Experiments</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+
+      <canvas id="frontPage">
+
+      </canvas>
+
+      <script>
+        var canvas = document.getElementById("frontPage");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#000080";
+        ctx.fillRect(0, 0, 500, 1920);
+      </script>
+
+      <section id="buttons-to-subpages">
+        <h2>Click Buttons Here to Learn More About Me!</h2>
+        <button type="button">About Me</button>
+        <button type="button">Projects</button>
+        <button type="button">Skills and Tech</button>
+        <button type="button">Experiments</button>
+        <button type="button">Contact Me</button>
+      </section>
+
+    </main>
+
+    <hr>
+    
+    <footer>
+      <p>Author: Patrick Pajarillaga</p>
+    </footer>
+  </body>
+</html>

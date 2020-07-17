@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patrick Pajarillaga's Website</title>
+
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="sat.html">Skills and Technologies</a></li>
+          <li><a href="exp.html">Experiments</a></li>
+          <li><strong>Contact Me</strong></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Email: Patrickpajarillag22@yahoo.com</h2>
+      <h2>Github: <a href="https://github.com/Patrick-Pajarillaga">https://github.com/Patrick-Pajarillaga</a></h2>
+      <h2>Linkedin: <a href="https://www.linkedin.com/in/patrick-pajarillaga/">https://www.linkedin.com/in/patrick-pajarillaga/</a></h2>
+
+      <form id="contact-form">
+        <fieldset>
+          <legend><strong>Contact Form</strong></legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname"><br>
+
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"><br>
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br>
+
+          <label>Reason for Contact:
+            <select name="reasons">
+              <optgroup label="Opportunities">
+                <option value="Business Opportunity">Business Opportunity</option>
+                <option value="Job Opportunity">Job Opportunity</option>
+              </optgroup>
+              <optgroup label="Connections">
+                <option value="Networking">Networking</option>
+              </optgroup>
+              <optgroup label="Other">
+                <option value="Miscellaneous">Miscellaneous</option>
+              </optgroup>
+            </select><br>
+          </label>
+          
+          <label>If miscellaneous, type in reason here or choose N/A
+            <input list="reasons-misc"><br>
+            <datalist id="reasons-misc">
+              <option value="N/A">
+            </datalist>
+          </label>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" rows="4" cols="50"></textarea><br>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>Author: Patrick Pajarillaga</p>
+    </footer>
+  </body>
+</html>
